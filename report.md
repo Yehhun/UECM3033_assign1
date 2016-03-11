@@ -28,14 +28,17 @@ Put here your picture file (Lenna.png)
 
 ![Lenna.png](Lenna.png)
 ![2_Picture.png](2_Picture.png)
+
 How many non zero element in $\Sigma$?
 
+30 non zero element
 Put here your lower and better resolution pictures. Explain how you generate
 these pictures from `task2.py`.
+We generate by using both pictures.
 
 What is a sparse matrix?
 
-
+ A sparse matrix is a matrix in which most of the elements are zero. By contrast, if most of the elements are nonzero, then the matrix is considered dense. The fraction of non-zero elements over the total number of elements  in a matrix is called the sparsity .
 -----------------------------------
 
-<sup>last modified: change your date here</sup>
+<sup>last modified: 11-3-2016 </sup>
