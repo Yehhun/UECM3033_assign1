@@ -1,44 +1,69 @@
-UECM3033 Assignment #2 Report
+UECM3033 Assignment #1 Report
 ========================================================
 
-- Prepared by: ** Put your name here**
-- Tutorial Group: T2/T3
-
+- Prepared by: Tee Yeh Hun
+- Tutorial Group: T2
 --------------------------------------------------------
 
-## Task 1 --  $LU$ Factorization or SOR method
+## Task 1 -- setup a github repository
 
-The reports, codes and supporting documents are to be uploaded to Github at: 
+The reports, codes and supporting documents are uploaded to Github at: 
 
-[https://github.com/Yehhun/UECM3033_assign2](https://github.com/Yehhun/UECM3033_assign2)
+[https://github.com/Yehhun/UECM3033_assign1]
+(https://github.com/Yehhun/UECM3033_assign1)
 
-Explain your selection criteria here.
 
-We can use LU decomposition for both matrix.We need to confirm that the matrix is definite matrix to use SOR with correct variable.
-We need also to made the p(Kj) smaller than 1 in order to get omega value. 
-
-Explain how you implement your `task1.py` here.
-
-For the first 3*3 matrix, I am able to use LU decomposition to solve it, then when using SOR method, I found out that the equation p(Kj) is more than one, so I am unable to find optimal omega. That why it is unable to use SOR method. For 6*6 matrix, I am able to find out using LU decomposition method.In SOR method, I am able to find out p(Kj) but unable to get the right answer.This is because 6*6 matrix is not a definite matrix. We need to made the matrix definite in order to find correct solution using SOR.
 ---------------------------------------------------------
 
-## Task 2 -- SVD method and image compression
+## Task 2 -- setup python
 
-Put here your picture file (Lenna.png)
+Put here the screen shot of file (python.png)
+![](https://cloud.githubusercontent.com/assets/16850560/12701198/9a9a9a80-c83c-11e5-81ec-841bf053ce9e.png)
 
-![Lenna.png](Lenna.png)
-![2_Picture.png](2_Picture.png)
+![python.png](python.png)
 
-How many non zero element in $\Sigma$?
 
-30 non zero element
-Put here your lower and better resolution pictures. Explain how you generate
-these pictures from `task2.py`.
-We generate by using both pictures.
+------------------------------------------------------------
 
-What is a sparse matrix?
+## Task 3 -- modify and run Python script
 
- A sparse matrix is a matrix in which most of the elements are zero. By contrast, if most of the elements are nonzero, then the matrix is considered dense. The fraction of non-zero elements over the total number of elements  in a matrix is called the sparsity .
+In this section, please report:
+
+1) The hexadecimal value of your student ID.
+
+The hexadecimal value of my ID is 13e202. ID:1303042
+
+2) Write down the definite integrals that you have chosen.
+
+   The definite integrals that I have chosen is 
+   $$\int_0^{2}x*e^{x^{2}}dx=\frac{e^{4}}{2}-\frac{1}{2}
+   
+ 
+3) Write down your system of 10 linear equations.
+
+\begin{align*}
+x_0+x_1+x_2+x_3+x_4+x_5+x_6+x_7+x_8+x_9 &=55,\\
+x_0+2 x_1+x_2+x_3+x_4+x_5+x_6+x_7+x_8+x_9 &=57,\\
+x_0+x_1+2 x_2+x_3+x_4+x_5+x_6+x_7+x_8+x_9 &=58,\\
+x_0+x_1+x_2+2 x_3+x_4+x_5+x_6+x_7+x_8+x_9 &=59,\\
+x_0+x_1+x_2+x_3+2 x_4+x_5+x_6+x_7+x_8+x_9 &=60,\\
+x_0+x_1+x_2+x_3+x_4+2 x_5+x_6+x_7+x_8+x_9 &=61,\\
+x_0+x_1+x_2+x_3+x_4+x_5+2 x_6+x_7+x_8+x_9 &=62,\\
+x_0+x_1+x_2+x_3+x_4+x_5+x_6+2 x_7+x_8+x_9 &=63,\\
+x_0+x_1+x_2+x_3+x_4+x_5+x_6+x_7+2 x_8+x_9 &=64,\\
+x_0+x_1+x_2+x_3+x_4+x_5+x_6+x_7+x_8+2 x_9 &=65.
+\end{align*}
+
+
+Here are the examples of how to add equations in markdown:
+
+$$\int_0^{\infty} e^{-x^2} dx = \frac{\sqrt{\pi}}{2}.$$
+
+\begin{align*}
+3 x_0 +x_1 &= 9,\\
+x_0 + 2 x_1 &= 8.
+\end{align*}
+
 -----------------------------------
 
-<sup>last modified: 11-3-2016 </sup>
+<sup>last modified: change your date here</sup>
