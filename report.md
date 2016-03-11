@@ -3,6 +3,7 @@ UECM3033 Assignment #1 Report
 
 - Prepared by: Tee Yeh Hun
 - Tutorial Group: T2
+
 --------------------------------------------------------
 
 ## Task 1 -- setup a github repository
@@ -66,4 +67,4 @@ x_0 + 2 x_1 &= 8.
 
 -----------------------------------
 
-<sup>last modified: change your date here</sup>
+<sup>last modified: 29-1-2016</sup>
